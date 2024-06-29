@@ -1,0 +1,69 @@
+div.square {
+  height: 1000vh;
+  position: relative;
+}
+h1 {
+  text-align: center;
+}
+div.one {
+  background-color: greenyellow;
+  width: 420px;
+  height: 300px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+div.two {
+  background-color: red;
+  width: 280px;
+  height: 75px;
+  position: absolute;
+  top: 210px;
+  left: 120px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.lorem {
+  border: solid;
+  border-color: brown;
+  width: 200px;
+  height: 65px;
+  text-align: center;
+  font-weight: bold;
+}
+div.loremm {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+}
+div.square {
+}
+
+#button {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+div.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.explanation {
+  background-color: grey;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
