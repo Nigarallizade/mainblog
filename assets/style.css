@@ -1,57 +1,59 @@
-div.square {
-  height: 1000vh;
-  position: relative;
-}
 h1 {
   text-align: center;
 }
 div.one {
   background-color: greenyellow;
-  width: 420px;
+  width: 410px;
   height: 300px;
   font-size: large;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
+  margin-right: 90px;
 }
 div.two {
   background-color: red;
-  width: 280px;
+  width: 285px;
   height: 75px;
   position: absolute;
-  top: 210px;
-  left: 120px;
   color: white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  bottom: 20px;
+  left: 100px;
 }
 
 div.lorem {
   border: solid;
   border-color: brown;
-  width: 200px;
+  width: 190px;
   height: 65px;
-  text-align: center;
   font-weight: bold;
-}
-div.loremm {
   display: flex;
-  flex-direction: row-reverse;
-  margin-right: 50px;
+  justify-content: center;
+  margin-left: 100px;
+  position: sticky;
+  top: 0px;
 }
-div.square {
+div.container {
+  display: flex;
+}
+input.readmore:hover {
+  background-color: grey;
+  color: black;
 }
 
 #button {
   background-color: blue;
+  border: none;
   color: white;
   width: 100px;
   height: 40px;
+  font-weight: bold;
   margin-top: 20px;
+  cursor: pointer;
 }
 div.button {
   display: flex;
@@ -66,4 +68,11 @@ div.explanation {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+}
+section.all {
+  display: flex;
+  justify-content: space-evenly;
+}
+section.mainblog {
+  height: 200vh;
 }
